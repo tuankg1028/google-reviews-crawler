@@ -1,0 +1,33 @@
+{
+  "name": "google-reviews-crawler",
+  "version": "1.0.0",
+  "description": "A Playwright-based crawler for collecting Google Reviews",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "install-browsers": "playwright install",
+    "test": "node src/test.js",
+    "batch": "node src/batch.js",
+    "login": "node src/login.js",
+    "merge": "node src/merge.js"
+  },
+  "keywords": [
+    "playwright",
+    "scraping",
+    "google-reviews",
+    "reviews",
+    "crawler"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.40.0",
+    "playwright": "^1.40.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}

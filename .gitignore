@@ -1,0 +1,8 @@
+.chrome-profile/
+output/
+node_modules/
+.DS_Store
+.env
+prev/
+*.log
+*.xlsx
